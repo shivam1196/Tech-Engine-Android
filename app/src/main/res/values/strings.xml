@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tech-Engine</string>
+    <string name="welcome_text">Welcome to Tech-Engine</string>
+    <string name="app_description">Content and build with like minded people.</string>
+</resources>
