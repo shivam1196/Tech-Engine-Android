@@ -17,6 +17,31 @@
         android:fontFamily="casual"
         android:textStyle="italic|bold"/>
 
+    <include
+        android:id="@+id/layout_signup"
+        layout="@layout/signup_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_login_welcome_msg"
+        android:layout_marginTop="@dimen/dimen_20_dp"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/layout_login"
+        layout="@layout/login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_20_dp"
+        android:layout_below="@id/tv_login_welcome_msg"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/layout_area_of_interest"
+        layout="@layout/layout_area_of_interest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimen_20_dp"
+        android:visibility="gone"/>
     <TextView
         android:id="@+id/tv_login_subtitle"
         android:layout_below="@id/tv_login_welcome_msg"
@@ -38,5 +63,24 @@
         android:layout_marginTop="@dimen/dimen_30_dp"
         android:layout_centerInParent="true"
         android:src="@drawable/welcome_screen_icon_24dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_welcome_screen_icon"
+        android:layout_marginTop="@dimen/dimen_20_dp"
+        android:layout_centerInParent="true"
+        android:text="@string/login"
+        android:fontFamily="casual"/>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_marginTop="@dimen/dimen_10_dp"
+        android:layout_centerInParent="true"
+        android:text="@string/signup"
+        android:fontFamily="casual"/>
 
 </RelativeLayout>

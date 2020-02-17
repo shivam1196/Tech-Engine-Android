@@ -1,5 +1,23 @@
 <resources>
     <string name="app_name">Tech-Engine</string>
     <string name="welcome_text">Welcome to Tech-Engine</string>
-    <string name="app_description">Content and build with like minded people.</string>
+    <string name="app_description">Connect and build with like minded people.</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username_heading">Enter Username</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="password_heading">Enter Password</string>
+    <string name="submit">Submit</string>
+    <string name="firstname_heading">Enter First Name</string>
+    <string name="secondname_heading">Enter Second Name</string>
+    <string name="next">Next</string>
+    <string name="area_of_interest">Area of Interest</string>
+    <string name="android">Android</string>
+    <string name="coding">Coding</string>
+    <string name="algos">Algorithms</string>
+    <string name="ds">Data Structures</string>
+    <string name="java">Java</string>
+    <string name="backend">Backend</string>
+    <string name="problem_solving">Problem Solving</string>
+    <string name="confirm_password_heading">Confirm Password</string>
 </resources>
